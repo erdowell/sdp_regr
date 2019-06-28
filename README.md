@@ -1,2 +1,2 @@
-# sdp_regr
-SDP assignment - build regression model
+# Learning
+Figuring out how to work in GitHub
