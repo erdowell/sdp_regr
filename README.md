@@ -234,7 +234,7 @@ ggplot(sch_scr4b) + aes(x = n1, y = std_resid_m4b) +
   geom_smooth(method = "lm", se=FALSE) + 
   theme_bw() + labs(title = "M4b Std Residual by Number of Test Takers")
 
-# Inspect residual distributions by bins and categories for Models 4a and 4b
+# Check for identification of over-performers by Models 4a and 4b
 table(sch_scr4a$std_resid_m4a >=2, sch_scr4a$subject)
 table(sch_scr4a$std_resid_m4a >=2, sch_scr4a$bin_yhat_m4a)
 table(sch_scr4a$std_resid_m4a >=2, sch_scr4a$bin_n1)
